@@ -37,8 +37,8 @@ ol {
 /* ------------heder---------------- */
 .container { 
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header {
@@ -310,7 +310,7 @@ padding: 32px 0;
     padding: 32px 16px;
 }
 
-.addition .heading {
+.heading {
     margin-bottom: 8px;
 }
 
