@@ -38,11 +38,11 @@ ol {
 .container { 
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
 }
 
 .header .container {
@@ -84,7 +84,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+    padding: 24px 0;
 }
 
 .header-navigation-list-item:hover,
@@ -126,12 +126,10 @@ ol {
 .main {
 }
 
-.section-one {
-    background: #2e2f42;
-}
 
-.section-one .container {
+.section-one {
     padding: 188px 0;
+    background: #2e2f42;
 }
 
 .section-one .title {
@@ -263,6 +261,7 @@ padding: 32px 0;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .group .text {
@@ -307,13 +306,13 @@ padding: 32px 0;
     flex-direction: column;
     gap: 8px;
     border: 1px solid #e7e9fc;
+    border-top: none;
     padding: 32px 16px;
 }
 
 .additio .heading {
-
+    margin-bottom: 8px;
     margin-left: 16px;
-    margin-bottom: 8px; 
 }
 
 .additio .text {
