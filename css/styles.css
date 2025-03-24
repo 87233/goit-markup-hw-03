@@ -38,10 +38,9 @@ ol {
 .container { 
     width: 1158px;
     margin: 0 auto;
-}
-.container .header{
     padding: 0 15px;
 }
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 
@@ -306,17 +305,16 @@ padding: 32px 0;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
 }
 
-.additio .heading {
+.addition .heading {
     margin-bottom: 8px;
 }
 
-.additio .text {
+.addition .text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
