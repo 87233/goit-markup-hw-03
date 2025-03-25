@@ -53,6 +53,7 @@ ol {
 
 .header-navigation {
    display: flex;
+   align-items: center;
 }
 
 .logo {
