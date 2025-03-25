@@ -48,11 +48,11 @@ ol {
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
    }
 
 .header-navigation {
    display: flex;
-   align-items: center;
 }
 
 .logo {
@@ -64,6 +64,8 @@ ol {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
+    display: block;
 }
 
 .logo-spain {
@@ -72,8 +74,6 @@ ol {
 
 .header-navigation-list {
     display: flex;
-    width: 261px;
-    height: 24px;
     gap: 40px;
 }
 
@@ -82,6 +82,8 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .header-navigation-list-item:hover,
@@ -92,20 +94,18 @@ ol {
 
 .header-address {
     font-style: normal;
-
 }
 
 .header-address-list {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .header-address-list-item {
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: #434455;
+    padding: 24px 0;display: block;
 }
 
 .header-address-list-item:hover,
@@ -243,11 +243,6 @@ ol {
 }
 
 .group {
-    display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-gap: 8px;
 padding: 32px 0;
 }
 
@@ -297,10 +292,6 @@ padding: 32px 0;
     background: url("path_to_image");
 }
 .addition {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
@@ -308,6 +299,10 @@ padding: 32px 0;
 
 .heading {
     margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .addition .text {
